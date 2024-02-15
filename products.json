@@ -1,0 +1,24 @@
+[
+    {
+        "_id": "",
+        "collection": "01",
+        "productName": "BAGGY FIT JEANS",
+        "image": "",
+        "images":
+            [
+            ],
+        "price": "$99",
+        "sale": null,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "sizes": [{"S": 18, "M": 35, "L": null}],
+        "currentCollor": "BLACK",
+        "hasOtherColors": ["BLUE"],
+        "SKU": "",
+        "category": "Jeans",
+        "categoryID": "65ce4207eb914575dc962539",
+        "tags": [],
+        "reviews": [],
+        "comments": {}
+    }
+
+]

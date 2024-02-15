@@ -1,0 +1,394 @@
+{
+    "firstSection": [
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/firstSection/banner-media-winter.png",
+            "textContent": "Make your fashion look mire charming",
+            "price": "$169",
+            "season": "WINTER"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/firstSection/banner-media-summer1.png",
+            "textContent": "Make your fashion look mire charming",
+            "price": "$219",
+            "season": "SUMMER"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/firstSection/banner-media-summer2.png",
+            "textContent": "Make your fashion look mire charming",
+            "price": "$99",
+            "season": "SUMMER"
+        }
+    ],
+    "secondSection": [
+        {
+            "category": "Jeans",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/secondSection/manJeans.png"
+        },
+        {
+            "category": "Shorts",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/secondSection/femShorts.png"
+        },
+        {
+            "category": "T-Shirts",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/secondSection/manTShirt.png"
+        },
+        {
+            "category": "Shirts",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/secondSection/manShirt.png"
+        },
+        {
+            "category": "Shorts",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/secondSection/femShorts.png"
+        }
+    ],
+    "thirdSection": {
+        "textContentBig": "Set your wardrobe with our amazing selection!",
+        "textContentSmall": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the",
+        "womanCollection": {
+            "CollectionName": "Woman Collection",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/thirdSection/womenCollection.png"
+        },
+        "manCollection": {
+            "CollectionName": "Man Collection",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/thirdSection/manCollection.png"
+        },
+        "childFashion": {
+            "CollectionName": "Child Fashion",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/thirdSection/childFashion.png"
+        }
+    },
+    "fourthSection": [
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourthSection/1.png",
+            "productName": "Cozy Knit Cardigan Sweater",
+            "price": "$79",
+            "discount": "GET 20% OFF"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourthSection/2.png",
+            "productName": "Plaid Wool Winter Coat",
+            "price": "$109",
+            "discount": "GET 15% OFF"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourthSection/3.png",
+            "productName": "Water-Resistant Windbreaker Jacket",
+            "price": "$99",
+            "discount": "GET 25% OFF"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourthSection/4.png",
+            "productName": "Satin Wrap Party Blouse",
+            "price": "$229",
+            "discount": "GET 50% OFF"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourthSection/5.png",
+            "productName": "Sophisticated Swagger Suit",
+            "price": "$139",
+            "discount": "GET 10% OFF"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourthSection/6.png",
+            "productName": "Classic Denim Jeans",
+            "price": "$199",
+            "discount": "GET 35% OFF"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourthSection/7.png",
+            "productName": "Vintage Denim Overalls Shorts",
+            "price": "$89",
+            "discount": "GET 30% OFF"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourthSection/8.png",
+            "productName": "Athletic Mesh Sports Leggings",
+            "price": "$59",
+            "discount": "GET 25% OFF"
+        }
+    ],
+    "fifthSection": {
+        "left": {
+            "textContentBig": "2023",
+            "textContentSmall": "SUMMER",
+            "saleText": "Sale Up to 50% Off",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fifthSection/backg1.png"
+        },
+        "right": {
+            "textContent": "New Summer Collection",
+            "saleText": "Sale Up to 50% Off",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fifthSection/bckg2.png"
+        }
+    },
+    "sixthSection": {
+        "image": "https://itrprj.blob.core.windows.net/ecomm/home/sixthSection/archImage.jpg",
+        "textContent": "Users Who Viewed This Also Checked Out These Similar Profiles",
+        "products": [
+            {
+                "productName": "Cozy Knit Cardigan Sweater",
+                "saleText": "up to 79% off",
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/sixthSection/norm1.jpg",
+                "oldPrice": "$80",
+                "newPrice": "$95"
+            },
+            {
+                "productName": "Sophisticated Swagger Suit",
+                "saleText": "up to 60% off",
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/sixthSection/norm2.jpg",
+                "oldPrice": "$100",
+                "newPrice": "$219"
+            },
+            {
+                "productName": "Classic Denim Skinny Jeans",
+                "saleText": "up to 50% off",
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/sixthSection/norm3.jpg",
+                "oldPrice": "$99",
+                "newPrice": "$199"
+            }
+        ]
+    },
+    "seventhSection": {
+        "image": "https://itrprj.blob.core.windows.net/ecomm/home/seventhSection/main.jpg",
+        "textContent": "Great saving on everyday essentials",
+        "saleText": "Up to 60% off + up to $107 CashBack",
+        "animationText": "GREAT SAVING",
+        "products": [
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/seventhSection/norm1.jpg",
+                "productName": "https://itrprj.blob.core.windows.net/ecomm/home/seventhSection/main.jpg",
+                "saleText": "up to 79% off",
+                "newPrice": "$90",
+                "oldPrice": "$110"
+            },
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/seventhSection/norm4.jpg",
+                "productName": "https://itrprj.blob.core.windows.net/ecomm/home/seventhSection/main.jpg",
+                "saleText": "Free Delivery",
+                "newPrice": "$50",
+                "oldPrice": "$120"
+            },
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/seventhSection/norm2.jpg",
+                "productName": "https://itrprj.blob.core.windows.net/ecomm/home/seventhSection/main.jpg",
+                "saleText": "up to 79% off",
+                "newPrice": "$160",
+                "oldPrice": "$280"
+            },
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/seventhSection/norm3.jpg",
+                "productName": "https://itrprj.blob.core.windows.net/ecomm/home/seventhSection/main.jpg",
+                "saleText": "Free Delivery",
+                "newPrice": "$70",
+                "oldPrice": "$90"
+            }
+        ]
+    },
+    "eighthSection": {
+        "mapImage": "https://itrprj.blob.core.windows.net/ecomm/home/eighthSection/map.png",
+        "mapLineImage": "https://itrprj.blob.core.windows.net/ecomm/home/eighthSection/map-line.png",
+        "textContent": "Discovering the Hottest Nearby Destinations in Your Area",
+        "saleText": "Up to 60% off + up to $107 cashACK",
+        "products": [
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/eighthSection/norm1.png",
+                "productName": "Swagger Suit",
+                "saleText": "Up To 79% Off"
+            },
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/eighthSection/norm2.png",
+                "productName": "Sports Leggings",
+                "saleText": "Up To 59% Off"
+            },
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/eighthSection/norm3.png",
+                "productName": "Cardigan Sweater",
+                "saleText": "Up To 39% Off"
+            },
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/eighthSection/norm4.png",
+                "productName": "Skinny Jeans",
+                "saleText": "Up To 69% Off"
+            }
+        ]
+    },
+    "ninthSection": [
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/ninthSection/1.png",
+            "productName": "Checkered Slim Collar Casual Shirt",
+            "saleText": "Up To 79% Off",
+            "oldPrice": "$30",
+            "newPrice": "$20"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/ninthSection/2.png",
+            "productName": "Printed Spread Collar Casual Shirt",
+            "saleText": "Up To 79% Off",
+            "oldPrice": "$60",
+            "newPrice": "$40"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/ninthSection/3.png",
+            "productName": "Solid Cut Away Collar Casual Shirt",
+            "saleText": "Up To 79% Off",
+            "oldPrice": "$70",
+            "newPrice": "$50"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/ninthSection/4.png",
+            "productName": "Printed Spread Collar Casual Shirt",
+            "saleText": "Up To 79% Off",
+            "oldPrice": "$60",
+            "newPrice": "$40"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/ninthSection/5.png",
+            "productName": "Solid Cut Away Collar Casual Shirt",
+            "saleText": "Up To 79% Off",
+            "oldPrice": "$70",
+            "newPrice": "$50"
+        }
+    ],
+    "tenthtSection": [
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/tenthSection/bckg1.png",
+            "saleText": "20% OFF",
+            "textContent": "LUXURY BRANDS"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/tenthSection/bckg2.png",
+            "saleText": "SALE UP TO 50% OFF",
+            "textContentBig": "2023",
+            "textContentSmall": "SUMMER"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/tenthSection/bckg3.png",
+            "saleText": "20% OFF",
+            "textContentBig": "SALE",
+            "textContentSmall": "SWIMWEAR"
+        }
+    ],
+    "eleventhSection": [
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/eleventhSection/norm1.png",
+            "productName": "Classic Denim Skinny Jeans",
+            "saleText": "UP TO 50% OFF",
+            "newPrice": "$60",
+            "oldPrice": "$90",
+            "review": "(2k reviews)"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/eleventhSection/norm2.png",
+            "productName": "Sophisticated Swagger Suit",
+            "saleText": "UP TO 50% OFF",
+            "newPrice": "$80",
+            "oldPrice": "$110",
+            "review": "(1k reviews)"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/eleventhSection/norm3.png",
+            "productName": "Cozy Knit Cardigan Sweater",
+            "saleText": "UP TO 50% OFF",
+            "newPrice": "$50",
+            "oldPrice": "$70",
+            "review": "(3k reviews)"
+        }
+    ],
+    "twefthSection": {
+        "image": "https://itrprj.blob.core.windows.net/ecomm/home/eleventhSection/main.png",
+        "textContent": "Recent Additions to Your Shortlist",
+        "animationText": "SHORTLIST",
+        "products": [
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/eleventhSection/norm1.png",
+                "productName": "Classic Denim Skinny Jeans",
+                "saleText": "UP TO 79% OFF",
+                "newPrice": "$60",
+                "oldPrice": "$90"
+            },
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/eleventhSection/norm2.png",
+                "productName": "Sophisticated Swagger Suit",
+                "saleText": "UP TO 69% OFF",
+                "newPrice": "$80",
+                "oldPrice": "$110"
+            },
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/eleventhSection/norm3.png",
+                "productName": "Cozy Knit Cardigan Sweater",
+                "saleText": "UP TO 49% OFF",
+                "newPrice": "$50",
+                "oldPrice": "$70"
+            },
+            {
+                "image": "https://itrprj.blob.core.windows.net/ecomm/home/eleventhSection/norm4.png",
+                "productName": "Classic Cardigan Suit",
+                "saleText": "UP TO 29% OFF",
+                "newPrice": "$80",
+                "oldPrice": "$120"
+            }
+        ]
+    },
+    "thirteenthSection": [
+        {
+            "logo": "https://itrprj.blob.core.windows.net/ecomm/home/thirteenthSection/pumaImage.jpg",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/thirteenthSection/pumaLogo.jpg",
+            "saleText": "Min. 30% Off",
+            "textContent": "Outdoor Shoes"
+        },
+        {
+            "logo": "https://itrprj.blob.core.windows.net/ecomm/home/thirteenthSection/reebogImage.jpg",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/thirteenthSection/reebokLogo.jpg",
+            "saleText": "Up To 30% Off",
+            "textContent": "Best Clothes"
+        },
+        {
+            "logo": "https://itrprj.blob.core.windows.net/ecomm/home/thirteenthSection/adidasImage.jpg",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/thirteenthSection/adidasLogo.jpg",
+            "saleText": "Up To 30% Off",
+            "textContent": "Sports Shoes"
+        },
+        {
+            "logo": "https://itrprj.blob.core.windows.net/ecomm/home/thirteenthSection/nykaalogo.jpg",
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/thirteenthSection/nykaaimage.jpg",
+            "saleText": "Min. 30% Off",
+            "textContent": "Modern Jewellery"
+        }
+    ],
+    "fourteenthSection": [
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourteenthSection/1.jpg",
+            "date": "28 FEB 2023",
+            "textContent": "Style Diaries: A Week in Fashion"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourteenthSection/2.jpg",
+            "date": "15 DEC 2023",
+            "textContent": "Street Style Safari: Global Fashion Influences"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourteenthSection/3.jpg",
+            "date": "28 AUG 2023",
+            "textContent": "Fashion & Beauty Fusion: The Ultimate Style Guide"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourteenthSection/4.jpg",
+            "date": "18 MAR 2023",
+            "textContent": "Chic & Unique: Personalized Fashion Finds"
+        },
+        {
+            "image": "https://itrprj.blob.core.windows.net/ecomm/home/fourteenthSection/5.jpg",
+            "date": "11 NOV 2023",
+            "textContent": "Dress to Impress: Elevate Your Everyday Style"
+        }
+    ],
+    "fifteenthSection": {
+        "textContent": "Upgrade your style with our top-notch collection.",
+        "images": [
+            "https://itrprj.blob.core.windows.net/ecomm/home/fifteenthSection/1.png",
+            "https://itrprj.blob.core.windows.net/ecomm/home/fifteenthSection/2.png",
+            "https://itrprj.blob.core.windows.net/ecomm/home/fifteenthSection/3.png",
+            "https://itrprj.blob.core.windows.net/ecomm/home/fifteenthSection/4.png",
+            "https://itrprj.blob.core.windows.net/ecomm/home/fifteenthSection/5.png"
+        ]
+    }
+}
