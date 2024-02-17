@@ -4,8 +4,10 @@ const productsController = require('../../controllers/productsController')
 
 
 router.route('/')
-    .post(productsController.postProducts)
     .get(productsController.getProducts)
+
+router.route('/suggestions')
+    .get(productsController.handleSuggestProducts)
 
 
 module.exports = router

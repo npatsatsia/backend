@@ -12,10 +12,12 @@ const corsOptions = require('./config/corsOptions')
 const credentials = require('./middleware/credentials')
 // const errorHandler = require('./middleware/errorHandler')
 // const verifyJWT = require('./middleware/verifyJWT')
-// const cookieParser = require('cookie-parser')
+const cookieParser = require('cookie-parser')
 const {runMDB, client} = require('./config/dbConnection')
 // const passport = require('passport')
 
+const rateLimit = require('express-rate-limit');
+const helmet = require('helmet');
 
 const PORT = process.env.PORT || 1111
 
@@ -32,18 +34,26 @@ app.use(credentials)
 app.use(cors(corsOptions))
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-// app.use(cookieParser())
+app.use(cookieParser())
 
+app.use(helmet());
 
+// Enable rate limiting
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100 // limit each IP to 100 requests per windowMs
+});
+
+app.use(limiter);
 
 app.use('/', require('./routes/root'))
 app.use('/homeContent', require('./routes/api/home/home'))
 app.use('/products', require('./routes/api/products'))
-// app.use('/register', require('./routes/register'))
-// app.use('/login', require('./routes/login'))
+app.use('/signup', require('./routes/api/signUp'))
+app.use('/signin', require('./routes/api/signIn'))
+app.use('/signuot', require('./routes/api/signOut'))
 // app.use('/auth', require('./routes/api/socialAuth'))
-// app.use('/refresh', require('./routes/refreshToken'))
-// app.use('/logout', require('./routes/logout'))
+app.use('/refresh', require('./routes/api/refreshToken'))
 // app.use('/categories', require('./routes/api/categories'))
 // app.use('/collection', require('./routes/api/singleCollection'))
 
