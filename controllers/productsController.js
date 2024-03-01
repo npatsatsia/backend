@@ -1,8 +1,10 @@
 const { client } = require('../config/dbConnection')
-// const { v4: uuidv4 } = require('uuid');
+const products = require("../allProducts.json")
+const { v4: uuidv4 } = require('uuid');
 
 const db = client.db('newEcommPrj');
 const productsData = db.collection('products');
+
 
 const getProducts = async (req, res) => {
     const page = parseInt(req.query.page);
@@ -75,6 +77,7 @@ const getProducts = async (req, res) => {
 const handleSuggestProducts = async (req, res) => {
     const search = req.query.search;
     const limit = 7;
+    console.log(search)
 
     if (!search) {
         return res.status(400).json({ error: 'No search term provided' });
@@ -112,32 +115,80 @@ const handleSuggestProducts = async (req, res) => {
     }
 }
 
+const editProduct = async (req, res) => {
+    const { _id } = req.params;
+    const updatedProductData = req.body;
+    try {
+        await client.connect();
 
-// const postProducts = async (req, res) => {
-//     function generateSKU(productName, productCategory) {
-//         const prefix = productName.split(' ').slice(0, 3).map(word => word.substring(0, 2).toUpperCase()).join('') + productCategory.substring(0, 2).toUpperCase();
-//         const randomNumber = Math.floor(Math.random() * 10000).toString().padStart(4, '0');
-//         return `${prefix}-${randomNumber}`;
-//     }
+        const result = await productsData.findOneAndUpdate(
+            { _id: _id },
+            { $set: updatedProductData },
+            { returnOriginal: false }
+          );
+
+          if (result) {
+            console.log(result)
+            res.json(result);
+          } else {
+            res.status(404).json({ error: 'Product not found' });
+          }
+
+        await client.close();
+    } catch (error) {
+        console.error('Error updating product:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+}
+
+const updateCurrentColorKey = async () => {
+    try {
+      // Connect to MongoDB
+      await client.connect();
+  
+      // Update all documents in the collection
+      const result = await productsData.updateMany(
+        { }, // Empty filter to update all documents
+        { $rename: { 'currentCollor': 'currentColor' } } // Rename currentCollor to currentColor
+      );
+  
+      console.log(`${result.modifiedCount} documents updated successfully`);
+  
+      // Close the MongoDB connection
+      await client.close();
+    } catch (error) {
+      console.error('Error updating documents:', error);
+    }
+  };
+  
+
+
+const postProducts = async (req, res) => {
+    function generateSKU(productName, productCategory) {
+        const prefix = productName.split(' ').slice(0, 3).map(word => word.substring(0, 2).toUpperCase()).join('') + productCategory.substring(0, 2).toUpperCase();
+        const randomNumber = Math.floor(Math.random() * 10000).toString().padStart(4, '0');
+        return `${prefix}-${randomNumber}`;
+    }
     
-//     let sum = 0;
+    let sum = 0;
     
-//     try {
-//         await client.connect();
+    try {
+        await client.connect();
 
-//         for (const product of products) {
-//             const id = uuidv4();
-//             const sku = generateSKU(product.productName, product.category);
-//             const updateProduct = { ...product, "_id": id, "SKU": sku };
+        for (const product of products) {
+            const id = uuidv4();
+            const sku = generateSKU(product.productName, product.category);
+            const updateProduct = { ...product, "_id": id, "SKU": sku };
 
-//             await productsData.insertOne(updateProduct);
-//             sum += 1;
-//         }
-//         res.json(`Added ${sum} Products`);
-//     } catch (error) {
-//         console.error('Error inserting products:', error);
-//         res.status(500).json({ error: 'Internal Server Error' });
-//     }
-// };
+            await productsData.insertOne(updateProduct);
+            sum += 1;
+        }
+        res.json(`Added ${sum} Products`);
+    } catch (error) {
+        console.error('Error inserting products:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+};
 
-module.exports = { getProducts, handleSuggestProducts }
+
+module.exports = { getProducts, handleSuggestProducts, editProduct, updateCurrentColorKey, postProducts }
