@@ -48,6 +48,7 @@ app.use(limiter);
 app.use('/', require('./routes/root'))
 app.use('/homeContent', require('./routes/api/home/home'))
 app.use('/products', require('./routes/api/products'))
+app.use('/categories', require('./routes/api/categories'))
 app.use('/signup', require('./routes/api/signUp'))
 app.use('/signin', require('./routes/api/signIn'))
 app.use('/signuot', require('./routes/api/signOut'))
